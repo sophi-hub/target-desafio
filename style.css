@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #d0e7ff, #e0d0ff);
+    text-align: center;
+    padding: 9rem;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 2rem;
+    margin: 3rem 0;
+    cursor: pointer;
+    border-color: blue;
+    transition: transform 0.3s linear;
+}
+
+button:hover {
+    transform: scale(1.04);
+}
+
+#resultado {
+    margin-top: 3rem;
+}
