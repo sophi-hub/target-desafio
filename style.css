@@ -1,8 +1,24 @@
  body {
      font-family: Arial, sans-serif;
-     background: linear-gradient(to right, #d0e7ff, #e0d0ff);
+     background: linear-gradient(to right, #d0e7ff, #5952b6);
+     background-size: 400% 400%;
      text-align: center;
      padding-top: 12%;
+     animation: gradient 15s ease infinite;
+ }
+
+ @keyframes gradient {
+     0% {
+         background-position: 0% 50%;
+     }
+
+     50% {
+         background-position: 100% 50%;
+     }
+
+     100% {
+         background-position: 0% 50%;
+     }
  }
 
  button {
